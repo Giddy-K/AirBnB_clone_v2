@@ -13,8 +13,8 @@ def index():
 
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def airbnb_onepage():
-    """Returns a message for the /airbnb-onepage/ route"""
-    return 'Welcome to Airbnb Onepage!'
+    """Returns Hello HBNB! /airbnb-onepage/ route"""
+    return 'Hello HBNB!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
